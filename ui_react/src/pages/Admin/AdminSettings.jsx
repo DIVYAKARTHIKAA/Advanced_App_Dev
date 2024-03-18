@@ -52,13 +52,13 @@ const AdminSettings = () => {
                     <div className='h-screen w-screen flex absolute z-50 bg-gray-500/60 justify-center items-center top-0 left-0'>
                         <div className='h-[45vh] w-[30vw] flex flex-col shadow-md shadow-blue-500/20 bg-white rounded-sm'>
                             <div className='h-5/6 w-full flex flex-col justify-center items-center p-2 gap-4'>
-                                <input type="text" placeholder='Name' value='Mohanraj M' className='bg-blue-100/30 outline-none border-2 border-transparent focus:border-b-2 focus:border-b-blue-300 rounded-sm w-[80%] text-black placeholder:text-black p-2 shadow-sm' />
-                                <input type="email" placeholder='Email' value='max.neo.dev@gmail.com' className='bg-blue-100/30 outline-none border-2 border-transparent focus:border-b-2 focus:border-b-blue-300 rounded-sm w-[80%] text-black placeholder:text-black p-2 shadow-sm' />
-                                <input type="number" placeholder='Phone' value='9876543210' className='bg-blue-100/30 outline-none border-2 border-transparent focus:border-b-2 focus:border-b-blue-300 rounded-sm w-[80%] text-black placeholder:text-black p-2 shadow-sm' />
+                                <input type="text" placeholder='Name' value='Divyakarthikaa J P' className='bg-blue-100/30 outline-none border-2 border-transparent focus:border-b-2 focus:border-b-blue-300 rounded-sm w-[80%] text-black placeholder:text-black p-2 shadow-sm' />
+                                <input type="email" placeholder='Email' value='Dreamydelight@gmail.com' className='bg-blue-100/30 outline-none border-2 border-transparent focus:border-b-2 focus:border-b-blue-300 rounded-sm w-[80%] text-black placeholder:text-black p-2 shadow-sm' />
+                                <input type="number" placeholder='Phone' value='9798653421' className='bg-blue-100/30 outline-none border-2 border-transparent focus:border-b-2 focus:border-b-blue-300 rounded-sm w-[80%] text-black placeholder:text-black p-2 shadow-sm' />
                             </div>
                             <div className='h-1/6 w-full flex flex-row justify-center items-center'>
                                 <button className='w-1/2 h-full bg-red-500 font-bold text-white' onClick={() => { setEditModel(false) }}> Cancel </button>
-                                <button className='w-1/2 h-full bg-blue-500 font-bold text-white'>Update Profile</button>
+                                <button className='w-1/2 h-full bg-green-500 font-bold text-white'>Update Profile</button>
                             </div>
                         </div>
                     </div>

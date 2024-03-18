@@ -157,7 +157,7 @@ const UserSettings = () => {
                 >
                   Cancel
                 </button>
-                <button className="w-1/2 h-full bg-blue-500 font-bold text-white">
+                <button className="w-1/2 h-full bg-green-500 font-bold text-white">
                   Update Password
                 </button>
               </div>

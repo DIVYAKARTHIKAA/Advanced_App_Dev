@@ -19,14 +19,14 @@ import Placeorder from './pages/Shared/Placeorder';
 import Myorder from './pages/Shared/Myorder';
 import Payorder from './pages/Shared/Payorder';
 import Loader from './components/Public/Loader';
-import AdminLayout from './Layout/AdminLayout';
-import AdminDashboard from './pages/Admin/AdminDashboard';
-import AdminGift from './pages/Admin/AdminGift';
-import AdminTheme from './pages/Admin/AdminTheme';
-import AdminOrder from './pages/Admin/AdminOrder';
-import AdminPayment from './pages/Admin/AdminPayment';
-import AdminConfig from './pages/Admin/AdminConfig';
-import AdminSettings from './pages/Admin/AdminSettings';
+const AdminLayout = lazy(() => import ('./Layout/AdminLayout'))
+const AdminDashboard = lazy(() => import('./pages/Admin/AdminDashboard'))
+const AdminGift = lazy(() => import('./pages/Admin/AdminGift'))
+const AdminTheme = lazy(() => import('./pages/Admin/AdminTheme'))
+const AdminOrder = lazy(() => import('./pages/Admin/AdminOrder'))
+const AdminPayment = lazy(() => import('./pages/Admin/AdminPayment'))
+const AdminConfig = lazy(() => import('./pages/Admin/AdminConfig'))
+const AdminSettings = lazy (() => import('./pages/Admin/AdminSettings'))
 
 
 
