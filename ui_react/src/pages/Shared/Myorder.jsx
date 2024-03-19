@@ -1,5 +1,3 @@
-// MyOrdersPage.js
-
 import React from 'react';
 
 const Myorder= () => {

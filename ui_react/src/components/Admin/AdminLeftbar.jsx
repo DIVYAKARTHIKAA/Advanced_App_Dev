@@ -4,7 +4,7 @@ import { RiGift2Line, RiPaletteLine, RiFileList2Line, RiHistoryLine, RiLogoutBox
 
 class AdminLeftbar extends React.Component {
   render() {
-    const { logout, settings } = this.props; // Extracting logout and settings from props
+    const { logout, settings } = this.props; 
 
     return (
       <div className="left-sidebar bg-gray-800 text-white w-48 py-6 px-4">
@@ -38,7 +38,7 @@ class AdminLeftbar extends React.Component {
                </Link>
         
         <div className="flex flex-col justify-between h-full">
-          <div> {/* Empty div to push Logout button to bottom */}
+          <div> 
           <Link to="/">
             <button onClick={logout} className="bg-red-500 block w-full text-white py-2 px-4 rounded hover:bg-red-600 transition duration-300">
               <RiLogoutBoxLine className="inline-block mr-2" />

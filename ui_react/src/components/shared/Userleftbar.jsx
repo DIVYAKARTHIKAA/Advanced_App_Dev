@@ -23,7 +23,7 @@ class Userleftbar extends React.Component {
           Settings
         </Link>
         <div className="flex flex-col justify-between h-full">
-          <div> {/* Empty div to push Logout button to bottom */}
+          <div> 
             <Link to="/">
               <button onClick={this.props.logout} className="bg-red-500 block w-full text-white py-2 px-4 rounded hover:bg-red-600 transition duration-300">
                 <RiLogoutBoxLine className="inline-block mr-2" />

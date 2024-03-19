@@ -46,10 +46,9 @@ const Placeorder = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
+    
     console.log('Form submitted!');
-    // You can display the order details below the form after submission
-    // For now, let's just log the form data
+    
     console.log(formData);
   };
 
@@ -166,7 +165,7 @@ const Placeorder = () => {
           </button>
         </div>
       </form>
-      {/* Display order details */}
+      
       {Object.keys(formData).length !== 0 && (
         <div className="mt-8">
           <h2 className="text-xl font-semibold mb-2">Order Details</h2>

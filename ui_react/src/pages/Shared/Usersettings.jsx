@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { FiEdit, FiKey, FiUser } from 'react-icons/fi'; // Import React icons
+import { FiEdit, FiKey, FiUser } from 'react-icons/fi';
 import Usertitlebar from '../../components/Shared/Usertitlebar';
 
 const UserSettings = () => {
@@ -20,7 +20,7 @@ const UserSettings = () => {
                   setEditModel(true);
                 }}
               >
-                <FiEdit className="text-blue-300" /> {/* Use FiEdit icon */}
+                <FiEdit className="text-blue-300" /> 
               </button>
               <button
                 className="p-2 border-2 border-blue-300/50 hover:border-blue-400 hover:bg-blue-200/40 rounded-full"
@@ -32,7 +32,7 @@ const UserSettings = () => {
               </button>
             </div>
             <div className="h-3/6 w-full flex justify-center items-center">
-              <FiUser className="text-blue-500 text-6xl" /> {/* Bigger size User Icon */}
+              <FiUser className="text-blue-500 text-6xl" />
             </div>
             <div className="h-2/6 w-full flex justify-center items-center">
               <p className="text-3xl font-bold text-blue-500">DIVYAJ P</p>

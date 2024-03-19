@@ -12,7 +12,7 @@ const GiftItem = ({ image, title, description }) => {
             />
           </div>
         </div>
-        <hr className="w-4/5 my-4 border-gray-300" /> {/* Line added */}
+        <hr className="w-4/5 my-4 border-gray-300" />
         <div className="p-6">
           <h2 className="text-xl font-semibold mb-2">{title}</h2>
           <p className="text-gray-600">{description}</p>
@@ -32,7 +32,7 @@ const Home = () => {
     <p className="text-lg text-black mb-12">Discover the perfect gift for your loved ones.</p>
    
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {/* Render various gift items */}
+        
         <GiftItem
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2JkILV7-5vgf2B46mUZ6snf9SwVmy7Jb6ww&usqp=CAU"
           title="Photo Frame"
@@ -48,7 +48,7 @@ const Home = () => {
           title="Pen"
           description="Elegant pens for every occasion."
         />
-        {/* Add more GiftItem components for additional gifts */}
+        
       </div>
     </div>
   );
