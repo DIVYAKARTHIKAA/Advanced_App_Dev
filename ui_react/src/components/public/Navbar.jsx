@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className='w-5/6 flex items-center justify-between text-white'>
           <h1 className='font-bold flex items-center'>
             <FaGift className="mr-2 text-yellow-400" />
-            Dreamy Delights
+            DreamyDelight
           </h1>
           <ul className='flex w-2/4 justify-evenly items-center font-bold'>
             {NavLinks.map((link, index) => (

@@ -26,7 +26,7 @@ public class GiftController {
 
     @GetMapping("getall")
     public List<Gift> getAllGifts() {
-        return giftService.getAllGift();
+        return giftService.getAllGifts();
     }
 
      @GetMapping("/{id}")

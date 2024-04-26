@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DreamydelightApplication<dreamydelight>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.hashitout.dreamydelightt.DreamydelightApplication",
+            "projectName": "dreamydelight",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DreamydelightApplication<dreamydelight>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.hashitout.dreamydelight.DreamydelightApplication",
+            "projectName": "dreamydelight",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DreamydelightApplication<search>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.hashitout.dreamydelight.DreamydelightApplication",
+            "projectName": "search",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
